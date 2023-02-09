@@ -4,7 +4,7 @@
 int main() {
     int a = 0, b = 0;
     std::cin >> a >> b;
-    std::cout << sqrt(a*a + b*b);
+    std::cout << sqrt(a*a + b*b) << std::endl;
     return 0;
 }
 
