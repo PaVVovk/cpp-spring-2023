@@ -5,7 +5,8 @@ using std::cout;
 using std::cin;
 
 int main(){
-    double* ptr;
+    double x = 0;
+    double* ptr = &x;
     *ptr = 0;
     cout << ptr << ' ' << *ptr << endl;
     cout << (ptr-3) << ' ' << *(ptr-3) << endl;
