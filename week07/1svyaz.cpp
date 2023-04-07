@@ -56,7 +56,7 @@ void destroy_list(Node* &head_ref){
 }
 
 void print_list(Node* head_ref){
-    while(head_ref->next != nullptr){
+    while(head_ref != nullptr){
         cout << head_ref->key;
         if (head_ref->next != nullptr){
             cout << ' ';
