@@ -19,7 +19,7 @@ void bi_search(int* a, int elem, int len){
     int left = 0;
     int right = len - 1;
     int middle = 0;
-    while (left < right){
+    while (left <= right){
         middle = (left + right)/2;
         if (elem == a[middle]){
             return;
